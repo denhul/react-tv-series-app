@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Intro from './components/Intro';
-import Series from './containers/Series';
+// import Intro from './components/Intro';
+// import Series from './containers/Series';
 // import logo from './logo.svg';
+import Main from './components/Main';
 import 'whatwg-fetch';
 import './App.css';
 
@@ -15,8 +16,8 @@ class App extends Component {
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">Welcome to TV Series list</h1>
         </header>
-        <Intro message="Here you can find all of the series" />
-        <Series />
+        {/* <Intro message="Here you can find all of the series" /> */}
+        <Main />
       </div>
     );
   }
